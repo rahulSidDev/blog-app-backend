@@ -22,7 +22,7 @@ app.listen(PORT, () => {
     console.log(`server is running on port: ${PORT}`)
 })
 
-console.log('testing auto deploy')
+console.log('testing auto deploy 2')
 
 app.get("/", (req, res) => {
     res.send(`<h1>Welcome to HOMEPAGE..</h1>`)
