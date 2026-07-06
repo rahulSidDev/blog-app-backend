@@ -10,7 +10,7 @@ const dbConnect = require('./configs/dbConnect')
 dbConnect()
 
 app.use(cors({
-  origin: 'https://blog-app-frontend-virid.vercel.app/'
+  origin: 'https://blog-app-frontend-virid.vercel.app'
 }));
 
 const blogRoutes = require('./routes/blogRoutes')
